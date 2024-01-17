@@ -3,10 +3,14 @@
   src: url("BebasNeue-Regular.tff") format("truetype");
 }
 
+/* Global styles */
+
 body {
   font-family: "primary", sans-serif;
   font-weight: 600;
 }
+
+/* Header styles */
 
 header {
   background-color: #00563b;
@@ -27,53 +31,39 @@ a:hover {
   height: auto;
 }
 
-#tennis_app-title {
+#tennis_app-title-h {
   height: 100px;
   width: auto;
 }
 
-@media (max-width: 2560px) {
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+/* Container-1 styles */
 
-  header div {
-    justify-content: center;
-    align-items: center;
-  }
-
-  #dl-btn {
-    padding-right: 2em;
-  }
+#container-1 {
+  background-color: #006747;
 }
 
-@media (max-width: 768px) {
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  header div {
-    justify-content: center;
-    align-items: center;
-  }
-
-  #dl-btn {
-    padding-right: 2em;
-  }
+#iphone-watch {
+  height: 35rem;
+  width: auto;
 }
 
+#tennis_app-title-1 {
+  height: 17rem;
+  width: auto;
+}
+
+#app-store-dl {
+  height: 8rem;
+  width: auto;
+}
+
+/* Media queries */
 @media (max-width: 425px) {
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #dl-btn {
+    display: none;
   }
 
-  a {
+  #dl-btn > a {
     display: none;
   }
 }
