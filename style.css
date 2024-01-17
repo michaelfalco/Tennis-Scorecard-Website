@@ -3,3 +3,17 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+header {
+  background-color: #00563b;
+}
+
+#tennis_app-icon {
+  width: 100px;
+  height: auto;
+}
+
+#tennis_app-title {
+  height: 100px;
+  width: auto;
+}
