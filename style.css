@@ -14,6 +14,12 @@ header {
 
 a {
   color: white;
+  font-size: 1.35rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 #tennis_app-icon {
@@ -26,7 +32,7 @@ a {
   width: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 2560px) {
   header {
     display: flex;
     justify-content: center;
@@ -34,6 +40,40 @@ a {
   }
 
   header div {
+    justify-content: center;
     align-items: center;
+  }
+
+  #dl-btn {
+    padding-right: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header div {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #dl-btn {
+    padding-right: 2em;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    display: none;
   }
 }
