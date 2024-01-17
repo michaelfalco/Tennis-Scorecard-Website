@@ -1,0 +1,61 @@
+// Your custom styles go here
+@font-face {
+  font-family: "primary";
+  src: url("BebasNeue-Regular.ttf") format("truetype");
+}
+
+/* Global styles */
+
+body {
+  font-family: "primary", sans-serif;
+  font-weight: 600;
+}
+
+/* Header styles */
+header {
+  background-color: #00563b;
+}
+
+main {
+  background-color: #006747;
+}
+
+a {
+  color: white;
+  font-size: 1.35rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#tennis_app-icon {
+  width: 100px;
+  height: auto;
+}
+
+#tennis_app-title-h {
+  height: 100px;
+  width: auto;
+}
+
+/* Container-1 styles */
+
+#iphone-watch {
+  height: 35rem;
+  width: auto;
+}
+
+#tennis_app-title-1 {
+  height: 17rem;
+  width: auto;
+}
+
+#app-store-dl {
+  height: 8rem;
+  width: auto;
+}
+
+// Import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";

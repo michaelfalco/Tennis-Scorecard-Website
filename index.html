@@ -16,34 +16,69 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
     <link rel="icon" href="./Resources/Logos/favicon.ico" type="image/x-icon" />
     <title>Tennis Scorecard</title>
   </head>
   <body>
-    <main>
-      <header class="row d-flex align-items-center">
-        <div class="col-6 px-4 py-2 justify-content-center">
+    <header>
+      <div class="container-fluid row d-flex align-items-center">
+        <div class="col-6 px-4 py-2 justify-content-center" id="logo-box">
           <img
+            class="img-fluid"
             src="./Resources/Logos/tennis_app-icon.png"
             alt="tennis_app-icon"
             id="tennis_app-icon"
           />
           <img
+            class="img-fluid"
             src="./Resources/Logos/tennis_app-title.png"
             alt="tennis_app-title"
-            id="tennis_app-title"
+            id="tennis_app-title-h"
           />
         </div>
-        <div class="col-6 d-flex justify-content-end">
+        <div class="col-6 d-flex justify-content-end" id="dl-btn">
           <a
             class="py-2 px-4"
             href="https://apps.apple.com/us/app/tennis-scorecard-app/id6451323049"
-            id="dl-btn"
             >DOWNLOAD</a
           >
         </div>
-      </header>
+      </div>
+    </header>
+    <main>
+      <div
+        class="container-fluid row d-flex justify-content-center align-items-center"
+        id="container-1"
+      >
+        <div class="col-4 col-sm-6 d-flex justify-content-center my-5">
+          <img
+            class="img-fluid"
+            src="./Resources/DeviceImages/Paired.png"
+            alt="iphone-watch"
+            id="iphone-watch"
+          />
+        </div>
+        <div
+          class="col-4 d-flex flex-column align-items-center"
+          id="app-store-btn"
+        >
+          <img
+            class="img-fluid"
+            src="./Resources/Logos/tennis_app-title.png"
+            alt="tennis_app-title"
+            id="tennis_app-title-1"
+          />
+          <a href="#">
+            <img
+              class="img-fluid"
+              src="./Resources/Links/Download_On_The_App_Store.png"
+              alt="app-store-dl"
+              id="app-store-dl"
+            />
+          </a>
+        </div>
+      </div>
     </main>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
