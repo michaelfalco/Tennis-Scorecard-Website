@@ -16,6 +16,10 @@ header {
   background-color: #00563b;
 }
 
+main {
+  background-color: #006747;
+}
+
 a {
   color: white;
   font-size: 1.35rem;
@@ -38,10 +42,6 @@ a:hover {
 
 /* Container-1 styles */
 
-#container-1 {
-  background-color: #006747;
-}
-
 #iphone-watch {
   height: 35rem;
   width: auto;
@@ -58,12 +58,8 @@ a:hover {
 }
 
 /* Media queries */
-@media (max-width: 425px) {
-  #dl-btn {
-    display: none;
-  }
-
-  #dl-btn > a {
+@include media-breakpoint-down(sm) {
+  header a {
     display: none;
   }
 }
