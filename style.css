@@ -1,12 +1,22 @@
+@font-face {
+  font-family: "primary";
+  src: url("BebasNeue-Regular.tff") format("truetype");
+}
+
 body {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+  padding: 0;
+  font-family: "primary", sans-serif;
+  font-weight: 600;
 }
 
 header {
+  padding: 0;
+  width: 100vw;
   background-color: #00563b;
+}
+
+a {
+  color: white;
 }
 
 #tennis_app-icon {
@@ -17,4 +27,15 @@ header {
 #tennis_app-title {
   height: 100px;
   width: auto;
+}
+
+@media (max-width: 375px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header div {
+    align-items: center;
+  }
 }
