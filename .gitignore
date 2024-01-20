@@ -69,4 +69,4 @@ node_modules/
 .DS_Store
 
 # aasa file
-.well-known/apple-app-site-association
+public/.well-known/apple-app-site-association
