@@ -6,7 +6,7 @@
 /* Global styles */
 body {
   font-family: "primary", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Header styles */
@@ -38,7 +38,7 @@ a:hover {
 }
 
 #tennis_app-title-h {
-  height: 75px;
+  height: 70px;
   width: auto;
 }
 
@@ -56,4 +56,14 @@ a:hover {
 #app-store-dl {
   height: 8rem;
   width: auto;
+}
+
+@media (min-width: 768px) {
+  #dl-btn {
+    display: inline;
+  }
+
+  #tennis_app-title-h {
+    height: 75px;
+  }
 }
