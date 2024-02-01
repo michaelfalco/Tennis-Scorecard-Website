@@ -29,6 +29,7 @@ a:hover {
 }
 
 #tennis_app-icon {
+  aspect-ratio: 1 / 1;
   width: 50px;
   height: auto;
 }
@@ -38,7 +39,8 @@ a:hover {
 }
 
 #tennis_app-title-h {
-  height: 55px;
+  aspect-ratio: 16 / 9;
+  height: 30px;
   width: auto;
 }
 
@@ -49,16 +51,19 @@ a:hover {
 }
 
 #tennis_app-title-1 {
-  height: 75px;
+  aspect-ratio: 16 / 9;
+  height: 50px;
   width: auto;
 }
 
 #app-store-dl {
-  height: 30px;
+  aspect-ratio: 119 / 40;
+  height: 20px;
   width: auto;
 }
 
 @media (min-width: 768px) {
+  /* Header styles */
   #dl-btn {
     display: inline;
   }
@@ -66,4 +71,6 @@ a:hover {
   #tennis_app-title-h {
     height: 75px;
   }
+
+  /* Container-1 styles */
 }
