@@ -29,7 +29,7 @@ a:hover {
 }
 
 #tennis_app-icon {
-  width: 100px;
+  width: 50px;
   height: auto;
 }
 
@@ -38,23 +38,23 @@ a:hover {
 }
 
 #tennis_app-title-h {
-  height: 70px;
+  height: 55px;
   width: auto;
 }
 
 /* Container-1 styles */
 #iphone-watch {
-  height: 35rem;
+  height: 100px;
   width: auto;
 }
 
 #tennis_app-title-1 {
-  height: 17rem;
+  height: 75px;
   width: auto;
 }
 
 #app-store-dl {
-  height: 8rem;
+  height: 30px;
   width: auto;
 }
 
