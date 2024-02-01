@@ -29,7 +29,8 @@ a:hover {
 }
 
 #tennis_app-icon {
-  width: 100px;
+  aspect-ratio: 1 / 1;
+  width: 50px;
   height: auto;
 }
 
@@ -38,27 +39,31 @@ a:hover {
 }
 
 #tennis_app-title-h {
-  height: 70px;
+  aspect-ratio: 16 / 9;
+  height: 30px;
   width: auto;
 }
 
 /* Container-1 styles */
 #iphone-watch {
-  height: 35rem;
+  height: 100px;
   width: auto;
 }
 
 #tennis_app-title-1 {
-  height: 17rem;
+  aspect-ratio: 16 / 9;
+  height: 50px;
   width: auto;
 }
 
 #app-store-dl {
-  height: 8rem;
+  aspect-ratio: 119 / 40;
+  height: 20px;
   width: auto;
 }
 
 @media (min-width: 768px) {
+  /* Header styles */
   #dl-btn {
     display: inline;
   }
@@ -66,4 +71,6 @@ a:hover {
   #tennis_app-title-h {
     height: 75px;
   }
+
+  /* Container-1 styles */
 }
