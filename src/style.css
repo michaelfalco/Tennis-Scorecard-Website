@@ -12,12 +12,14 @@ html {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .body {
   height: 100vh;
   width: 100vw;
   font-family: "Bebas Neue", sans-serif;
+  color: #fff;
 }
 
 .header {
@@ -45,6 +47,12 @@ a {
 }
 
 .dl-btn {
-  font-size: 2.25rem;
-  font-family: "Bebas Neue";
+  font-size: 3.25rem;
+  font-weight: 100;
+  margin: 0 40px;
+  opacity: 0.85;
+  transition: all 0.8s;
+}
+.dl-btn:hover, .dl-btn:focus {
+  opacity: 1;
 }
