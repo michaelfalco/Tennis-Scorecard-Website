@@ -17,10 +17,34 @@ a {
 .body {
   height: 100vh;
   width: 100vw;
-  font-family: url("../Resources/Fonts/BebasNeue-Regular.ttf"), sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .header {
   background-color: #00563b;
+  height: 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+.logo__icon {
   height: 10rem;
+  width: 10rem;
+}
+.logo__title {
+  height: 15rem;
+  width: 15rem;
+  object-fit: contain;
+}
+
+.dl-btn {
+  font-size: 2.25rem;
+  font-family: "Bebas Neue";
 }
