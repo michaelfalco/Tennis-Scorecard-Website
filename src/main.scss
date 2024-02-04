@@ -10,7 +10,8 @@ $color-white: #fff;
 
 $font-primary: "Bebas Neue";
 
-$ts: all 0.8s;
+$ts-slow: all 0.8s;
+$ts-fast: all 0.2s;
 
 // RESET
 
@@ -73,7 +74,7 @@ a {
   font-weight: 100;
   margin: 0 40px;
   opacity: 0.85;
-  transition: $ts;
+  transition: $ts-slow;
 
   &:hover,
   &:focus {
