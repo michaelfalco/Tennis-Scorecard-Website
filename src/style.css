@@ -1,1 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+}
+
+.header {
+  background-color: #00563b;
+  height: 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+.logo__icon {
+  height: 10rem;
+  width: 10rem;
+}
+.logo__title {
+  height: 15rem;
+  width: 15rem;
+  object-fit: contain;
+}
+
+.dl-btn {
+  font-size: 3.25rem;
+  font-weight: 100;
+  margin: 0 40px;
+  opacity: 0.85;
+  transition: all 0.8s;
+}
+.dl-btn:hover, .dl-btn:focus {
+  opacity: 1;
+}
