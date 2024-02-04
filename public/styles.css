@@ -45,6 +45,10 @@ a:hover {
 }
 
 /* Container-1 styles */
+#container-1 {
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
 #iphone-watch {
   height: 100px;
   width: auto;
