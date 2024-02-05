@@ -36,6 +36,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .logo {
@@ -73,6 +74,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 11rem;
 }
 .container--1__img {
   height: 65rem;
@@ -172,4 +174,23 @@ h1 {
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+.footer {
+  background-color: #2d3436;
+  height: 11rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer__link {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  opacity: 0.65;
+  transition: all 0.8s;
+}
+.footer__link:hover, .footer__link:focus {
+  opacity: 1;
 }
