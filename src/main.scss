@@ -92,6 +92,9 @@ a {
 
   &--1 {
     background-color: $color-green-medium;
+
+    &__img {
+    }
   }
 
   &--2 {
@@ -108,5 +111,13 @@ a {
 
   &--5 {
     background-color: $color-green-medium;
+  }
+}
+
+.store-link {
+  &__title {
+  }
+
+  &__link {
   }
 }
