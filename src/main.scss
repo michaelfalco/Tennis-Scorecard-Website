@@ -85,7 +85,7 @@ a {
   }
 }
 
-// -----------------
+// -------------------------------
 
 .container {
   height: 80rem;
@@ -98,7 +98,7 @@ a {
 
     &__img {
       height: 65rem;
-      width: 65rem;
+      width: 55rem;
       object-fit: contain;
     }
   }
@@ -126,18 +126,16 @@ a {
   align-items: center;
 
   &__title {
-    height: 45rem;
+    height: 25rem;
     width: 45rem;
     object-fit: contain;
   }
 
   &__link {
-    margin: 0;
-    padding: 0;
   }
 
   &__img {
-    height: 25rem;
+    height: 6rem;
     width: 25rem;
     object-fit: contain;
   }

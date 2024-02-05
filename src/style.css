@@ -71,7 +71,7 @@ a {
 }
 .container--1__img {
   height: 65rem;
-  width: 65rem;
+  width: 55rem;
   object-fit: contain;
 }
 .container--2 {
@@ -93,16 +93,12 @@ a {
   align-items: center;
 }
 .store-link__title {
-  height: 45rem;
+  height: 25rem;
   width: 45rem;
   object-fit: contain;
 }
-.store-link__link {
-  margin: 0;
-  padding: 0;
-}
 .store-link__img {
-  height: 25rem;
+  height: 6rem;
   width: 25rem;
   object-fit: contain;
 }
