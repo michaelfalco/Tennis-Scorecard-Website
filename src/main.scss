@@ -35,10 +35,12 @@ a {
 // BASE STYLES
 
 .body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   font-family: $font-primary, sans-serif;
   color: $color-white;
+  display: flex;
+  flex-direction: column;
 }
 
 // STYLES
@@ -46,6 +48,7 @@ a {
 .header {
   background-color: $color-green-dark;
   height: 11rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,9 +75,9 @@ a {
 .dl-btn {
   font-size: 3.25rem;
   font-weight: 100;
-  margin: 0 40px;
   opacity: 0.85;
   transition: $ts-slow;
+  margin: 0 30px;
 
   &:hover,
   &:focus {
@@ -85,18 +88,25 @@ a {
 // -----------------
 
 .container {
+  height: 80rem;
+
   &--1 {
+    background-color: $color-green-medium;
   }
 
   &--2 {
+    background-color: $color-gray-light;
   }
 
   &--3 {
+    background-color: $color-green-medium;
   }
 
   &--4 {
+    background-color: $color-gray-light;
   }
 
   &--5 {
+    background-color: $color-green-medium;
   }
 }
