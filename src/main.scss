@@ -43,6 +43,11 @@ a {
   flex-direction: column;
 }
 
+h1 {
+  font-size: 7rem;
+  font-weight: 100;
+}
+
 // STYLES
 
 .header {
@@ -105,11 +110,19 @@ a {
 
   &--2 {
     background-color: $color-gray-light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &__heading {
+      color: $color-green-medium;
     }
 
     &__img {
+      height: 60rem;
+      width: 95rem;
+      object-fit: contain;
     }
   }
 
