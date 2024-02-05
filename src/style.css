@@ -15,6 +15,16 @@ a {
   color: inherit;
 }
 
+@keyframes fade-in-from-bottom {
+  0% {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
 .body {
   height: 100%;
   width: 100%;
@@ -81,6 +91,7 @@ h1 {
   width: 55rem;
   object-fit: contain;
   padding: 3rem 0;
+  animation: fade-in-from-bottom 0.8s backwards;
 }
 .container--2 {
   background-color: #f5f5f7;
@@ -91,11 +102,13 @@ h1 {
 }
 .container--2__heading {
   color: #006747;
+  animation: fade-in-from-bottom 1s backwards;
 }
 .container--2__img {
   height: 60rem;
   width: 95rem;
   object-fit: contain;
+  animation: fade-in-from-bottom 1s 0.2s backwards;
 }
 .container--3 {
   background-color: #006747;
@@ -104,10 +117,14 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+.container--3__heading {
+  animation: fade-in-from-bottom 1.2s backwards;
+}
 .container--3__img {
   height: 60rem;
   width: 110rem;
   object-fit: contain;
+  animation: fade-in-from-bottom 1.2s 0.2s backwards;
 }
 .container--4 {
   background-color: #f5f5f7;
@@ -118,18 +135,21 @@ h1 {
 }
 .container--4__heading {
   color: #006747;
+  animation: fade-in-from-bottom 1.4s backwards;
 }
 .container--4__img {
   height: 60rem;
   width: 90rem;
   object-fit: contain;
   padding: 5rem 0;
+  animation: fade-in-from-bottom 1.4s 0.2s backwards;
 }
 .container--4__text {
   color: #9b9b9b;
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+  animation: fade-in-from-bottom 1.4s 0.2s backwards;
 }
 .container--5 {
   background-color: #006747;
@@ -141,6 +161,7 @@ h1 {
   height: 60rem;
   width: 30rem;
   object-fit: contain;
+  animation: fade-in-from-bottom 1.4s 0.4s backwards;
 }
 
 .store-link {
@@ -152,11 +173,13 @@ h1 {
   height: 25rem;
   width: 45rem;
   object-fit: contain;
+  animation: fade-in-from-bottom 0.8s 0.2s backwards;
 }
 .store-link__img {
   height: 6rem;
   width: 25rem;
   object-fit: contain;
+  animation: fade-in-from-bottom 0.8s 0.4s backwards;
 }
 
 .steps {
@@ -167,6 +190,7 @@ h1 {
 }
 .steps__heading {
   padding: 4rem 0;
+  animation: fade-in-from-bottom 1.4s backwards;
 }
 .steps__text {
   width: 50rem;
@@ -174,6 +198,7 @@ h1 {
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
+  animation: fade-in-from-bottom 1.4s 0.2s backwards;
 }
 
 .footer {
@@ -182,7 +207,7 @@ h1 {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .footer__link {
   font-family: "Inter", sans-serif;
