@@ -122,6 +122,10 @@ h1 {
   width: 90rem;
   object-fit: contain;
 }
+.container--4__text {
+  color: #a8a8a8;
+  font-family: "Inter", sans-serif;
+}
 .container--5 {
   background-color: #006747;
 }
