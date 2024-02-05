@@ -146,6 +146,10 @@ h1 {
 
   &--4 {
     background-color: $color-gray-light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &__heading {
       color: $color-green-medium;
@@ -153,7 +157,7 @@ h1 {
 
     &__img {
       height: 60rem;
-      width: 110rem;
+      width: 90rem;
       object-fit: contain;
     }
   }
