@@ -97,10 +97,12 @@ a {
   width: 45rem;
   object-fit: contain;
 }
-.store-link__button {
+.store-link__link {
+  margin: 0;
+  padding: 0;
+}
+.store-link__img {
   height: 25rem;
   width: 25rem;
   object-fit: contain;
-  display: flex;
-  justify-self: start;
 }

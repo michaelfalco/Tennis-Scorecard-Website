@@ -132,13 +132,13 @@ a {
   }
 
   &__link {
+    margin: 0;
+    padding: 0;
   }
 
-  &__button {
+  &__img {
     height: 25rem;
     width: 25rem;
     object-fit: contain;
-    display: flex;
-    justify-self: start;
   }
 }
