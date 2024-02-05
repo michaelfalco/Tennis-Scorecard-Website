@@ -102,13 +102,11 @@ h1 {
 }
 .container--2__heading {
   color: #006747;
-  animation: fade-in-from-bottom 1s backwards;
 }
 .container--2__img {
   height: 60rem;
   width: 95rem;
   object-fit: contain;
-  animation: fade-in-from-bottom 1s 0.2s backwards;
 }
 .container--3 {
   background-color: #006747;
@@ -124,7 +122,6 @@ h1 {
   height: 60rem;
   width: 110rem;
   object-fit: contain;
-  animation: fade-in-from-bottom 1.2s 0.2s backwards;
 }
 .container--4 {
   background-color: #f5f5f7;
@@ -135,21 +132,18 @@ h1 {
 }
 .container--4__heading {
   color: #006747;
-  animation: fade-in-from-bottom 1.4s backwards;
 }
 .container--4__img {
   height: 60rem;
   width: 90rem;
   object-fit: contain;
   padding: 5rem 0;
-  animation: fade-in-from-bottom 1.4s 0.2s backwards;
 }
 .container--4__text {
   color: #9b9b9b;
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  animation: fade-in-from-bottom 1.4s 0.2s backwards;
 }
 .container--5 {
   background-color: #006747;
@@ -161,7 +155,7 @@ h1 {
   height: 60rem;
   width: 30rem;
   object-fit: contain;
-  animation: fade-in-from-bottom 1.4s 0.4s backwards;
+  margin: 0 5rem;
 }
 
 .store-link {
@@ -186,11 +180,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15rem 20rem;
 }
 .steps__heading {
   padding: 4rem 0;
-  animation: fade-in-from-bottom 1.4s backwards;
 }
 .steps__text {
   width: 50rem;
@@ -198,7 +190,6 @@ h1 {
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
-  animation: fade-in-from-bottom 1.4s 0.2s backwards;
 }
 
 .footer {
