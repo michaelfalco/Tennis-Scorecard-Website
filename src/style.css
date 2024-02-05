@@ -163,6 +163,9 @@ h1 {
   align-items: center;
   padding: 15rem 20rem;
 }
+.steps__heading {
+  padding: 4rem 0;
+}
 .steps__text {
   width: 50rem;
   text-align: center;
