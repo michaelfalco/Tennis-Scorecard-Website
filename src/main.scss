@@ -59,6 +59,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .logo {
@@ -102,6 +103,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 11rem;
 
     &__img {
       height: 65rem;
