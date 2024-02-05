@@ -174,8 +174,14 @@ h1 {
 
   &--5 {
     background-color: $color-green-medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &__img {
+      height: 60rem;
+      width: 30rem;
+      object-fit: contain;
     }
   }
 }
@@ -202,9 +208,19 @@ h1 {
 }
 
 .steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rem 20rem;
+
   &__heading {
   }
 
   &__text {
+    width: 50rem;
+    text-align: center;
+    font-family: $font-secondary, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
   }
 }
