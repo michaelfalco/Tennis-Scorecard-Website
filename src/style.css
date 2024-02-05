@@ -110,6 +110,14 @@ h1 {
 .container--4 {
   background-color: #f5f5f7;
 }
+.container--4__heading {
+  color: #006747;
+}
+.container--4__img {
+  height: 60rem;
+  width: 110rem;
+  object-fit: contain;
+}
 .container--5 {
   background-color: #006747;
 }

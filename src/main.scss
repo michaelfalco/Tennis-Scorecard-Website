@@ -146,6 +146,16 @@ h1 {
 
   &--4 {
     background-color: $color-gray-light;
+
+    &__heading {
+      color: $color-green-medium;
+    }
+
+    &__img {
+      height: 60rem;
+      width: 110rem;
+      object-fit: contain;
+    }
   }
 
   &--5 {
