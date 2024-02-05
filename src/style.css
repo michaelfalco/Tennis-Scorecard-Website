@@ -124,9 +124,10 @@ h1 {
   padding: 5rem 0;
 }
 .container--4__text {
-  color: #a8a8a8;
+  color: #9b9b9b;
   font-family: "Inter", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .container--5 {
   background-color: #006747;
