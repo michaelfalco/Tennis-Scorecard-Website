@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --watch --no-source-map src/main.scss src/style.css"
+    "compile": "sass --watch --no-source-map src/main.scss src/style.css",
+    "build:prefixes": "postcss src/style.css --use autoprefixer --output src/prefixed.css",
+    "build:optimize": "csso src/prefixed.css --output public/style.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "csso-cli": "^4.0.2",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
     "sass": "^1.70.0"
   }
 }
