@@ -59,8 +59,13 @@ h1 {
     font-size: 6rem;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
     font-size: 5rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 750px) {
+    font-size: 4rem;
     margin-top: 2rem;
   }
 }
@@ -83,6 +88,10 @@ h1 {
 
   @media (max-width: 900px) {
     height: 9rem;
+  }
+
+  @media (max-width: 750px) {
+    height: 8rem;
   }
 }
 
@@ -159,12 +168,20 @@ h1 {
     height: 65rem;
   }
 
+  @media (max-width: 750px) {
+    height: 45rem;
+  }
+
   &--1 {
     background-color: $color-green-medium;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 11rem;
+
+    @media (max-width: 900px) {
+      padding-top: 7rem;
+    }
 
     &__img {
       height: 65rem;
@@ -181,6 +198,12 @@ h1 {
       @media (max-width: 900px) {
         height: 45rem;
         width: 35rem;
+        padding: 0;
+      }
+
+      @media (max-width: 750px) {
+        height: 30rem;
+        width: 20rem;
         padding: 0;
       }
     }
@@ -211,6 +234,11 @@ h1 {
         height: 45rem;
         width: 75rem;
       }
+
+      @media (max-width: 750px) {
+        height: 35rem;
+        width: 65rem;
+      }
     }
   }
 
@@ -234,9 +262,14 @@ h1 {
         width: 110rem;
       }
 
-      @media (max-width: 1100px) {
+      @media (max-width: 900px) {
         height: 45rem;
         width: 100rem;
+      }
+
+      @media (max-width: 750px) {
+        height: 35rem;
+        width: 90rem;
       }
     }
   }
@@ -265,8 +298,14 @@ h1 {
 
       @media (max-width: 900px) {
         height: 45rem;
-        width: 75rem;
+        width: 65rem;
         padding: 3rem 0;
+      }
+
+      @media (max-width: 750px) {
+        height: 32.5rem;
+        width: 70rem;
+        padding: 2rem 0;
       }
     }
 
@@ -280,8 +319,12 @@ h1 {
         font-size: 1.25rem;
       }
 
-      @media (max-width: 1100px) {
+      @media (max-width: 900px) {
         font-size: 1.15rem;
+      }
+
+      @media (max-width: 750px) {
+        font-size: 1rem;
       }
     }
   }
@@ -307,6 +350,11 @@ h1 {
         height: 45rem;
         width: 20rem;
       }
+
+      @media (max-width: 750px) {
+        height: 35rem;
+        width: 15rem;
+      }
     }
   }
 }
@@ -330,6 +378,11 @@ h1 {
       height: 15rem;
       width: 30rem;
     }
+
+    @media (max-width: 750px) {
+      height: 10rem;
+      width: 20rem;
+    }
   }
 
   &__link {
@@ -349,6 +402,11 @@ h1 {
       height: 4rem;
       width: 27.5rem;
     }
+
+    @media (max-width: 750px) {
+      height: 3.5rem;
+      width: 20rem;
+    }
   }
 }
 
@@ -359,6 +417,10 @@ h1 {
 
   &__heading {
     padding: 4rem 0;
+
+    @media (max-width: 750px) {
+      padding: 0;
+    }
   }
 
   &__text {
@@ -375,6 +437,12 @@ h1 {
     @media (max-width: 900px) {
       font-size: 1.75rem;
       width: 35rem;
+    }
+
+    @media (max-width: 750px) {
+      font-size: 1.15rem;
+      font-weight: 200;
+      width: 22rem;
     }
   }
 }
@@ -395,6 +463,10 @@ h1 {
     height: 9rem;
   }
 
+  @media (max-width: 750px) {
+    height: 7rem;
+  }
+
   &__link {
     font-family: $font-secondary, sans-serif;
     font-size: 1.5rem;
@@ -406,8 +478,12 @@ h1 {
       font-size: 1.35rem;
     }
 
-    @media (max-width: 1100px) {
+    @media (max-width: 900px) {
       font-size: 1.25rem;
+    }
+
+    @media (max-width: 750px) {
+      font-size: 1.15rem;
     }
 
     &:hover,
