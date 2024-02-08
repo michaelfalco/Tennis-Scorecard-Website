@@ -27,6 +27,8 @@ $ts-fast: all 0.2s;
 
 html {
   font-size: 62.5%;
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -34,29 +36,19 @@ a {
   color: inherit;
 }
 
-// KEYFRAMES
-
-@keyframes fade-in-from-bottom {
-  0% {
-    transform: translateY(5rem);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0rem);
-    opacity: 1;
-  }
-}
-
 // BASE STYLES
 
 .body {
-  height: 100%;
-  width: 100%;
   font-family: $font-primary, sans-serif;
   color: $color-white;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
 }
 
 h1 {
@@ -73,8 +65,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  z-index: 1;
+  // position: fixed;
+  // z-index: 1;
 }
 
 .logo {
@@ -112,6 +104,7 @@ h1 {
 
 .container {
   height: 80rem;
+  width: 100%;
 
   &--1 {
     background-color: $color-green-medium;
@@ -125,7 +118,6 @@ h1 {
       width: 55rem;
       object-fit: contain;
       padding: 3rem 0;
-      animation: fade-in-from-bottom 0.8s backwards;
     }
   }
 
@@ -138,14 +130,12 @@ h1 {
 
     &__heading {
       color: $color-green-medium;
-      animation: fade-in-from-bottom 1s backwards;
     }
 
     &__img {
       height: 60rem;
       width: 95rem;
       object-fit: contain;
-      animation: fade-in-from-bottom 1s 0.2s backwards;
     }
   }
 
@@ -157,14 +147,12 @@ h1 {
     justify-content: center;
 
     &__heading {
-      animation: fade-in-from-bottom 1.2s backwards;
     }
 
     &__img {
       height: 60rem;
       width: 110rem;
       object-fit: contain;
-      animation: fade-in-from-bottom 1.2s 0.2s backwards;
     }
   }
 
@@ -177,7 +165,6 @@ h1 {
 
     &__heading {
       color: $color-green-medium;
-      animation: fade-in-from-bottom 1.4s backwards;
     }
 
     &__img {
@@ -185,7 +172,6 @@ h1 {
       width: 90rem;
       object-fit: contain;
       padding: 5rem 0;
-      animation: fade-in-from-bottom 1.4s 0.2s backwards;
     }
 
     &__text {
@@ -193,7 +179,6 @@ h1 {
       font-family: $font-secondary, sans-serif;
       font-size: 1.5rem;
       font-weight: 500;
-      animation: fade-in-from-bottom 1.4s 0.2s backwards;
     }
   }
 
@@ -208,7 +193,6 @@ h1 {
       width: 30rem;
       object-fit: contain;
       margin: 0 5rem;
-      animation: fade-in-from-bottom 1.4s 0.4s backwards;
     }
   }
 }
@@ -222,7 +206,6 @@ h1 {
     height: 25rem;
     width: 45rem;
     object-fit: contain;
-    animation: fade-in-from-bottom 0.8s 0.2s backwards;
   }
 
   &__link {
@@ -232,7 +215,6 @@ h1 {
     height: 6rem;
     width: 25rem;
     object-fit: contain;
-    animation: fade-in-from-bottom 0.8s 0.4s backwards;
   }
 }
 
@@ -243,7 +225,6 @@ h1 {
 
   &__heading {
     padding: 4rem 0;
-    animation: fade-in-from-bottom 1.4s backwards;
   }
 
   &__text {
@@ -252,7 +233,6 @@ h1 {
     font-family: $font-secondary, sans-serif;
     font-size: 2.5rem;
     font-weight: 600;
-    animation: fade-in-from-bottom 1.4s 0.2s backwards;
   }
 }
 
