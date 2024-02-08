@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch --no-source-map src/main.scss src/style.css",
-    "build:prefixes": "postcss src/style.css --use autoprefixer --output build/prefixed.css",
+    "build:prefixes": "postcss src/style.css --use autoprefixer --output src/prefixed.css",
     "build:optimize": "csso src/prefixed.css --output public/style.css"
   },
   "author": "",
