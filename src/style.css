@@ -51,6 +51,12 @@ h1 {
     margin-top: 2rem;
   }
 }
+@media (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+}
 
 .header {
   background-color: #00563b;
@@ -77,6 +83,11 @@ h1 {
     height: 8rem;
   }
 }
+@media (max-width: 550px) {
+  .header {
+    height: 7rem;
+  }
+}
 
 .logo {
   display: flex;
@@ -100,6 +111,12 @@ h1 {
     width: 8rem;
   }
 }
+@media (max-width: 550px) {
+  .logo__icon {
+    height: 7rem;
+    width: 7rem;
+  }
+}
 .logo__title {
   height: 15rem;
   width: 15rem;
@@ -115,6 +132,12 @@ h1 {
   .logo__title {
     height: 11rem;
     width: 11rem;
+  }
+}
+@media (max-width: 550px) {
+  .logo__title {
+    height: 9rem;
+    width: 9rem;
   }
 }
 
@@ -135,6 +158,17 @@ h1 {
     margin: 0 20px;
   }
 }
+@media (max-width: 550px) {
+  .dl-btn {
+    font-size: 2rem;
+    margin: 0 15px;
+  }
+}
+@media (max-width: 375px) {
+  .dl-btn {
+    display: none;
+  }
+}
 .dl-btn:hover, .dl-btn:focus {
   opacity: 1;
 }
@@ -142,6 +176,8 @@ h1 {
 .container {
   height: 80rem;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 @media (max-width: 1100px) {
   .container {
@@ -170,6 +206,12 @@ h1 {
     padding-top: 7rem;
   }
 }
+@media (max-width: 550px) {
+  .container--1 {
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+}
 .container--1__img {
   height: 65rem;
   width: 55rem;
@@ -194,6 +236,13 @@ h1 {
   .container--1__img {
     height: 30rem;
     width: 20rem;
+    padding: 0;
+  }
+}
+@media (max-width: 550px) {
+  .container--1__img {
+    height: 25rem;
+    width: 15rem;
     padding: 0;
   }
 }
@@ -230,6 +279,24 @@ h1 {
     width: 65rem;
   }
 }
+@media (max-width: 550px) {
+  .container--2__img {
+    height: 30rem;
+    width: 55rem;
+  }
+}
+@media (max-width: 375px) {
+  .container--2__img {
+    height: 27rem;
+    width: 55rem;
+  }
+}
+@media (max-width: 320px) {
+  .container--2__img {
+    height: 24rem;
+    width: 55rem;
+  }
+}
 .container--3 {
   background-color: #006747;
   display: flex;
@@ -258,6 +325,27 @@ h1 {
   .container--3__img {
     height: 35rem;
     width: 90rem;
+  }
+}
+@media (max-width: 550px) {
+  .container--3__img {
+    height: 27rem;
+    width: 70rem;
+    margin-top: 0.75rem;
+  }
+}
+@media (max-width: 375px) {
+  .container--3__img {
+    height: 24rem;
+    width: 60rem;
+    margin-top: 0.75rem;
+  }
+}
+@media (max-width: 320px) {
+  .container--3__img {
+    height: 20rem;
+    width: 60rem;
+    margin-top: 0.75rem;
   }
 }
 .container--4 {
@@ -296,6 +384,20 @@ h1 {
     padding: 2rem 0;
   }
 }
+@media (max-width: 550px) {
+  .container--4__img {
+    height: 28rem;
+    width: 50rem;
+    padding: 2rem 0;
+  }
+}
+@media (max-width: 320px) {
+  .container--4__img {
+    height: 24.5rem;
+    width: 50rem;
+    padding: 2rem 0;
+  }
+}
 .container--4__text {
   color: #9b9b9b;
   font-family: "Inter", sans-serif;
@@ -317,11 +419,22 @@ h1 {
     font-size: 1rem;
   }
 }
+@media (max-width: 320px) {
+  .container--4__text {
+    font-size: 0.95rem;
+  }
+}
 .container--5 {
   background-color: #006747;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 550px) {
+  .container--5 {
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
 }
 .container--5__img {
   height: 60rem;
@@ -343,8 +456,14 @@ h1 {
 }
 @media (max-width: 750px) {
   .container--5__img {
-    height: 35rem;
+    height: 22rem;
     width: 15rem;
+  }
+}
+@media (max-width: 550px) {
+  .container--5__img {
+    height: 31rem;
+    width: 17rem;
   }
 }
 
@@ -376,6 +495,12 @@ h1 {
     width: 20rem;
   }
 }
+@media (max-width: 550px) {
+  .store-link__title {
+    height: 7.5rem;
+    width: 20rem;
+  }
+}
 .store-link__img {
   height: 6rem;
   width: 25rem;
@@ -397,6 +522,12 @@ h1 {
   .store-link__img {
     height: 3.5rem;
     width: 20rem;
+  }
+}
+@media (max-width: 550px) {
+  .store-link__img {
+    height: 3rem;
+    width: 15rem;
   }
 }
 
@@ -482,6 +613,11 @@ h1 {
 @media (max-width: 750px) {
   .footer__link {
     font-size: 1.15rem;
+  }
+}
+@media (max-width: 320px) {
+  .footer__link {
+    font-size: 1rem;
   }
 }
 .footer__link:hover, .footer__link:focus {
