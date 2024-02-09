@@ -64,7 +64,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Tennis Scorecard Developer <br>
+<<<<<<< HEAD
 Michael Falco - connectwithmichael@i-cloud.com - https://github.com/michaelfalco
+=======
+Michael Falco - connectwithmichael@icloud.com - https://github.com/michaelfalco
+>>>>>>> ce6a8d7eaa33f2d12d01ce501c3d397bcf574bc2
 
 Landing Page Developer <br>
 Dan Gray - daniel.w.gray1994@gmail.com - https://github.com/DanielG808
