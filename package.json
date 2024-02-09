@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch --no-source-map src/main.scss src/style.css",
+    "build:compile": "sass --no-source-map src/main.scss src/style.css",
     "build:prefixes": "postcss src/style.css --use autoprefixer --output src/prefixed.css",
-    "build:optimize": "csso src/prefixed.css --output public/style.css"
+    "build:optimize": "csso src/prefixed.css --output public/style.css",
+    "copy-html": "node HTMLcopier.js",
+    "build": "npm run copy-html && npm run build:compile && npm run build:prefixes && npm run build:optimize"
   },
   "author": "",
   "license": "ISC",
