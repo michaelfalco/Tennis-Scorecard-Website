@@ -464,6 +464,10 @@ h1 {
         height: 31rem;
         width: 17rem;
       }
+
+      @media (max-width: 425px) {
+        display: none;
+      }
     }
   }
 }
@@ -535,6 +539,10 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 425px) {
+    display: none;
+  }
 
   &__heading {
     padding: 4rem 0;
