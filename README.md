@@ -45,6 +45,18 @@ npm install
 
 This page was built to inform users about the Tennis Scorecard app and its features. Links on the page routes users to the Apple App Store where they can download the Tennis Scorecard app to most Apple devices.
 
+## Contribute
+
+To contribute to the project, changes can be made in the `/src` folder. After all changes have been added run the following command in the terminal:
+
+- Build the app
+
+```sh
+npm run build
+```
+
+Once the script is complete, commit the changes to your branch and submit a pull request for review.
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
