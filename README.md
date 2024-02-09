@@ -20,7 +20,7 @@ To install the project locally on your machine, complete the following steps:
 
 ### Prerequisites
 
-If you have do not have Node.js and npm package manager installed, visit the following links to download and install.
+If you do not have Node.js and npm package manager installed, visit the following links to download and install.
 
 - [Node.js](https://nodejs.org)
 - [npm](https://docs.npmjs.com/cli/v8/commands/npm-install)
