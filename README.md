@@ -52,7 +52,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Tennis Scorecard Developer <br>
-Micheal Falco - connectwithmichael@i-cloud.com - https://github.com/michaelfalco
+Michael Falco - connectwithmichael@icloud.com - https://github.com/michaelfalco
 
 Landing Page Developer <br>
 Dan Gray - daniel.w.gray1994@gmail.com - https://github.com/DanielG808
