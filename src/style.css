@@ -303,9 +303,15 @@ p {
     width: 55rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .container--2__img {
     height: 27rem;
+    width: 55rem;
+  }
+}
+@media (max-width: 360px) {
+  .container--2__img {
+    height: 25rem;
     width: 55rem;
   }
 }
@@ -352,14 +358,14 @@ p {
     margin-top: 0.75rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .container--3__img {
     height: 24rem;
     width: 60rem;
     margin-top: 0.75rem;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 370px) {
   .container--3__img {
     height: 20rem;
     width: 60rem;
