@@ -6,8 +6,11 @@
   "scripts": {
     "compile": "sass --watch --no-source-map src/main.scss src/style.css",
     "build:compile": "sass --no-source-map src/main.scss src/style.css",
-    "build:prefixes": "postcss src/style.css --use autoprefixer --output src/prefixed.css",
-    "build:optimize": "csso src/prefixed.css --output public/style.css",
+    "build:compile-pickleball": "sass --no-source-map public/main-pickleball.scss public/style-pickleball.css",
+    "build:prefixes": "postcss public/style.css --use autoprefixer --output public/prefixed.css",
+    "build:prefixes-pickleball": "postcss public/style-pickleball.css --use autoprefixer --output public/prefixed-pickleball.css",
+    "build:optimize": "csso public/prefixed.css --output public/style.css",
+    "build:optimize-pickleball": "csso public/prefixed-pickleball.css --output public/style-pickleball.css",
     "copy-html": "node HTMLcopier.js",
     "build": "npm run copy-html && npm run build:compile && npm run build:prefixes && npm run build:optimize"
   },
