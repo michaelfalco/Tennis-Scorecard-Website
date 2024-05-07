@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch --no-source-map src/main.scss src/style.css",
-    "build:compile": "sass --no-source-map public/main.scss src/style.css",
+    "build:compile": "sass --no-source-map public/main.scss public/style.css",
     "build:compile-pickleball": "sass --no-source-map public/main-pickleball.scss public/style-pickleball.css",
     "build:prefixes": "postcss public/style.css --use autoprefixer --output public/prefixed.css",
     "build:prefixes-pickleball": "postcss public/style-pickleball.css --use autoprefixer --output public/prefixed-pickleball.css",
