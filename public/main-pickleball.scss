@@ -551,74 +551,105 @@ p {
   }
 }
 
-.steps {
+.mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 425px) {
-    display: none;
-  }
-
   &__heading {
-    padding: 4rem 0;
-
-    @media (max-width: 750px) {
-      padding: 0;
-    }
-  }
-
-  &__text {
-    width: 50rem;
+    padding: 3rem 0;
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
 
     @media (max-width: 1100px) {
-      font-size: 2.1rem;
-    }
-
-    @media (max-width: 900px) {
-      font-size: 1.75rem;
+      height: 20rem;
       width: 35rem;
     }
 
+    @media (max-width: 900px) {
+      height: 15rem;
+      width: 30rem;
+    }
+
     @media (max-width: 750px) {
-      font-size: 1.15rem;
-      font-weight: 200;
-      width: 22rem;
+      height: 10rem;
+      width: 20rem;
+    }
+
+    @media (max-width: 550px) {
+      margin-top: 100px;
+      height: 7.5rem;
+      width: 20rem;
+    }
+
+    @media (max-width: 375px) {
+      margin-top: 50px;
+      height: 7.5rem;
+      width: 20rem;
     }
   }
-}
 
-.mobile {
-  display: none;
-
-  @media (max-width: 425px) {
+  &__content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
 
-  &__heading {
-    padding: 3rem 0;
+    @media (max-width: 1100px) {
+      margin-top: 75px;
+    }
+
+    @media (max-width: 375px) {
+      margin-bottom: 50px;
+    }
   }
 
   &__text {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     font-weight: 500;
-    width: 24rem;
+    width: 50rem;
+
+    @media (max-width: 1100px) {
+      font-size: 2rem;
+      font-weight: 300;
+      width: 50rem;
+    }
+
+    @media (max-width: 750px) {
+      font-size: 1.5rem;
+      font-weight: 100;
+      width: 30rem;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 1.25rem;
+      font-weight: 100;
+      width: 20rem;
+    }
   }
 
   &__link {
   }
 
   &__img {
-    height: 3rem;
-    width: 15rem;
+    height: 5rem;
+    width: 25rem;
     object-fit: contain;
-    margin: 2rem 0;
+    margin: 3rem 0;
+
+    @media (max-width: 1100px) {
+      height: 4rem;
+      width: 20rem;
+    }
+
+    @media (max-width: 750px) {
+      height: 3rem;
+      width: 20rem;
+    }
+
+    // @media (max-width: 550px) {
+    //   height: 7.5rem;
+    //   width: 20rem;
+    // }
   }
 }
 
