@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="apple-itunes-app"
+      content="app-id=6451323049, app-clip-bundle-id=com.michaelfalco.Tennis-Scorecard.Clip"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="./Resources/Logos/tennis_app-icon_alt.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Tennis Scorecard</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="logo">
+        <img
+          src="./Resources/Logos/tennis_app-icon.png"
+          alt="Tennis-App-Icon"
+          class="logo__icon"
+        />
+        <img
+          src="./Resources/Logos/tennis_app-title.png"
+          alt="Tennis-App-Title"
+          class="logo__title"
+        />
+      </div>
+      <a
+        href="https://apps.apple.com/app/apple-store/id6451323049?pt=126504666&ct=landingPage&mt=8"
+        class="dl-btn"
+        >DOWNLOAD</a
+      >
+    </header>
+    <main class="main">
+      <section class="container container--1">
+        <img
+          src="./Resources/DeviceImages/Paired.png"
+          alt="iPhone and Apple Watch display app."
+          class="container--1__img"
+        />
+        <div class="store-link">
+          <img
+            src="./Resources/Logos/tennis_app-title.png"
+            alt="Tennis-App-Title"
+            class="store-link__title"
+          />
+          <a
+            href="https://apps.apple.com/app/apple-store/id6451323049?pt=126504666&ct=landingPage&mt=8"
+            class="store-link__link"
+          >
+            <img
+              src="./Resources/Links/Download_On_The_App_Store.png"
+              alt="App-Store-Link"
+              class="store-link__img"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="container container--2">
+        <h1 class="container--2__heading">KEEP SCORE WHILE YOU PLAY</h1>
+        <img
+          src="./Resources/DeviceImages/Watches.png"
+          alt="Apple-Watches"
+          class="container--2__img"
+        />
+      </section>
+      <section class="container container--3">
+        <h1 class="container--3__heading">KEEP SCORE WHILE YOU SPECTATE</h1>
+        <img
+          src="./Resources/DeviceImages/Phones_alt.png"
+          alt="iPhones"
+          class="container--3__img"
+        />
+      </section>
+      <section class="container container--4">
+        <h1 class="container--4__heading">KEEP SCORE FROM ANY DEVICE</h1>
+        <img
+          src="./Resources/DeviceImages/MultiDevices.png"
+          alt="iPhone-iPad-Watch"
+          class="container--4__img"
+        />
+        <p class="container--4__text">
+          Available on iOS, watchOS, iPadOS, macOS, & visionOS.
+        </p>
+      </section>
+      <section class="container container--5">
+        <div class="steps">
+          <h1 class="steps__heading">TRY IT OUT</h1>
+          <p class="steps__text">
+            Scan this App Clip code with your iPhone camera to keep score of
+            your first game with Tennis Scorecard.
+          </p>
+        </div>
+        <img
+          src="./Resources/Links/AppClip_Camera.png"
+          alt="App-Clip-Code"
+          class="container--5__img"
+        />
+        <div class="mobile">
+          <h1 class="mobile__heading">DOWNLOAD THE APP TODAY</h1>
+          <p class="mobile__text">
+            And keep score of your next match with
+            <span class="u-italics">Tennis Scorecard</span>.
+          </p>
+          <a
+            href="https://apps.apple.com/app/apple-store/id6451323049?pt=126504666&ct=landingPage&mt=8"
+            class="mobile__link"
+          >
+            <img
+              src="./Resources/Links/Download_On_The_App_Store.png"
+              alt="App-Store-Link"
+              class="mobile__img"
+            />
+          </a>
+        </div>
+      </section>
+      <footer class="footer">
+        <a href="https://tr.ee/cmQ7_hLtat" class="footer__link">Contact</a>
+        <a
+          href="https://tennis-scorecard-78427.web.app/PrivacyPolicy.html"
+          class="footer__link"
+          >Privacy Policy</a
+        >
+        <a href="https://linktr.ee/connectwithmichael" class="footer__link"
+          >About the App Developer</a
+        >
+      </footer>
+    </main>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyArvzv0_DRG7Xt7q2JsWgKGxFNKBX2YwLo",
+        authDomain: "tennis-scorecard-78427.firebaseapp.com",
+        projectId: "tennis-scorecard-78427",
+        storageBucket: "tennis-scorecard-78427.appspot.com",
+        messagingSenderId: "283965605447",
+        appId: "1:283965605447:web:1ba45b52a4475501901362",
+        measurementId: "G-9EJJF0Y299",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
