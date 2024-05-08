@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![App-Screenshot](./src/Resources/Readme/Landing-Page-Screenshot.png)
+![App-Screenshot](./public/Resources/Readme/Landing-Page-Screenshot.png)
 
 Welcome to the Tennis Scorecard app landing page! This page is here to advertise the Tennis Scorecard app for iOS, watchOS, iPadOS, macOS, & visionOS devices.
 
