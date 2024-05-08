@@ -16,7 +16,7 @@ Welcome to the Tennis and Pickleball Scorecard app landing page! This page is he
 
 To visit the Tennis Scorecard site on the web click [here](https://tennisscorecard.app/).
 
-To visit the Pickleball Scorecard site on the web click [here](https://tennisscorecard.app/pickleball).
+To visit the Pickleball Scorecard site on the web click [here](https://tennisscorecard.app/pickleball.html).
 
 To install the project locally on your machine, complete the following steps:
 
