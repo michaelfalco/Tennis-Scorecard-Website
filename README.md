@@ -4,7 +4,7 @@
 
 ![App-Screenshot](./public/Resources/Readme/Landing-Page-Screenshot.png)
 
-Welcome to the Tennis Scorecard app landing page! This page is here to advertise the Tennis Scorecard app for iOS, watchOS, iPadOS, macOS, & visionOS devices.
+Welcome to the Tennis and Pickleball Scorecard app landing page! This page is here to advertise the Tennis Scorecard and Pickleball Scorecard apps for iOS, watchOS, iPadOS, macOS, & visionOS devices.
 
 ### Built With
 
@@ -14,7 +14,9 @@ Welcome to the Tennis Scorecard app landing page! This page is here to advertise
 
 ## Getting Started
 
-To visit the site on the web click [here](https://tennisscorecard.app/).
+To visit the Tennis Scorecard site on the web click [here](https://tennisscorecard.app/).
+
+To visit the Pickleball Scorecard site on the web click [here](https://tennisscorecard.app/pickleball).
 
 To install the project locally on your machine, complete the following steps:
 
@@ -47,12 +49,20 @@ This page was built to inform users about the Tennis Scorecard app and its featu
 
 ## Contribute
 
-To contribute to the project, changes can be made in the `/src` folder. After all changes have been added run the following command in the terminal:
+To contribute to the project, changes can be made in the `/public` folder. After all changes have been added run the following command in the terminal:
 
-- Build the app
+- Re-Build CSS styles for the app
+
+##### Tennis Scorecard:
 
 ```sh
-npm run build
+npm run build:style
+```
+
+##### Pickleball Scorecard:
+
+```sh
+npm run build:style-pickleball
 ```
 
 Once the script is complete, commit the changes to your branch and submit a pull request for review.
