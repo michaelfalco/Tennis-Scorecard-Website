@@ -615,15 +615,9 @@ p {
     }
 
     @media (max-width: 750px) {
-      font-size: 1.5rem;
-      font-weight: 100;
+      font-size: 1.75rem;
+      font-weight: 500;
       width: 30rem;
-    }
-
-    @media (max-width: 375px) {
-      font-size: 1.25rem;
-      font-weight: 100;
-      width: 20rem;
     }
   }
 
